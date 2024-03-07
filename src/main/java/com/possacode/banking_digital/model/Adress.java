@@ -24,7 +24,7 @@ public class Adress extends AbstractEntity  {
 
     private String city;
 
-    private String county;
+    private String country;
 
     @OneToOne
     @JoinColumn(name = "id_user" , referencedColumnName = "id")

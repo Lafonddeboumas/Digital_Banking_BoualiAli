@@ -25,6 +25,8 @@ public class Transaction extends AbstractEntity  {
 
     private LocalDate transactionDate;
 
+    private TransactionType transactionType;
+
     @ManyToOne
     @JoinColumn(name = "id_user")
     private User user;
